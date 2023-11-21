@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+a{
+    margin-left: 95vh;
+  
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+#content{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(212, 200, 200);
+    margin-left: 70vh;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+#content.open{
+    height: 1000px;
+    transition: max-height 2s;
+}
+
+</style>
+<body>
+<div id="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Natus ipsa velit, consequatur ea quibusdam minima qui 
+        eligendi! Atque, quaerat eum? Earum neque doloribus nisi vero, ad
+        ipisci officiis nostrum hic ullam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa velit, c
+            onsequatur ea quibusdam minima qui eligendi! Atque, quaerat eum? Earum neque dolo
+            ribus nisi vero, adipisci officiis nostrum hic ullam.</p>
+</div>
+<a  id="btn">show more</a>
+
+
+
+<script src="hello.js">
+
+</script>
+</body>
+</html>
